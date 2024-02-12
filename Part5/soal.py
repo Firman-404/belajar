@@ -1,3 +1,4 @@
+#modal bissmillah moga bener biar langsung wisuda hehe
 import random
 from os import system as cmd
 from sys import exit as exit
