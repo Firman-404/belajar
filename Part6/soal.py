@@ -27,13 +27,6 @@ def blok():
     \__ \ (_) | (_| | | Tahun Pembuatan : 2024-02-9
     |___/\___/ \__,_|_|\n""",width=60,title=f"BANNER",style=f"{color_panel}"))
 
-mancing = ""  # Assigning 'mancing' here
-yokbisayok = ""
-tanggal = 12
-bulan = 9  # Mengubah bulan menjadi integer
-tahun = 2009
-
-
 def menu():
     blok()
     cetak(panel(f'[bold blue][[bold purple]01[/][bold blue]][/] [bold blue]Melakukan Looping Menggunakan While\n[bold blue][[bold purple]02[/][bold blue]][/] [bold blue]Melakukan Looping Menggunakan For\n[bold blue][[bold purple]03[/][bold blue]][/] [bold blue]Angka Ganjil dan Genap\n[bold blue][[bold purple]04[/][bold blue]][/] [bold blue]counter kelipatan\n[bold blue][[bold purple]05[/][bold blue]][/] [bold blue]Bintang asteriks',width=60,title=f"[bold blue]List Menu",style=f"bold blue"))
