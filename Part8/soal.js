@@ -1,3 +1,7 @@
+/*
+Buatlah sebuah fungsi dengan nama dataHandling dengan sebuah parameter untuk menerima argumen. Argumen yang akan diterima adalah sebuah array yang berisi beberapa array sejumlah n.
+Tugas kamu adalah mengimplementasikan fungsi dataHandling agar dapat menampilkan data-data pada dari argumen seperti di bawah ini:
+*/
 function dataHandling(data) {
     for (let i = 0; i < data.length; i++) {
         console.log("Nomor ID:  " + data[i][0]);
@@ -16,7 +20,9 @@ let input1 = [
 ];
 
 dataHandling(input1);
-
+/*
+pada soal yg kedua, kalian harus belajar method split secara mandiri, pada soal dibawah ini, method .split() cukup powerfull loh
+*/
 let input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
 
 function dataHandling2(input) {
